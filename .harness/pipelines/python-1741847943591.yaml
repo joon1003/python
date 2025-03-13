@@ -43,7 +43,7 @@ pipeline:
                   identifier: dockerbuild
                   name: docker_build
                   spec:
-                    caching: true
+                    caching: false
                     connectorRef: <+input>
                     repo: hello/world
                     tags:
