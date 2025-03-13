@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1741847970391-push-trigger-input-set
+  identifier: Build_python_1741847970391pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jkimlab
+  pipeline:
+    identifier: Build_python_1741847970391
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
