@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1741847970391-pr-trigger-input-set
+  identifier: Build_python_1741847970391prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jkimlab
+  pipeline:
+    identifier: Build_python_1741847970391
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
